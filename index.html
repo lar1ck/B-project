@@ -3,43 +3,148 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="style.css" />
-    <link rel="icon" href="images.jpeg" type="img/png">
+    <link rel="icon" href="./images/images.jpeg" type="img/png" />
     <title>Portfolio</title>
   </head>
   <body>
     <div>
-        <div class="p-navBar">
-            <div class="oth">
-                <div class="logo">
-                    ourcompanynamehere@gmail.com 
-                </div>
-                <div class="links">
-                    <a href=""><b>CV</b></a>
-                    <a href="">CL</a>
-                </div>
-            </div>
-            <nav class="nav-bar">
-                <div>
-                    <a href="">linkedIn</a>
-                    <a href="">Instagram</a>
-                    <a href="">Github</a>
-                </div>
-            </nav>
+      <!-- Navbar -->
+      <div class="p-navBar">
+        <div class="oth">
+          <div class="logo">ourcompanynamehere@gmail.com</div>
+          <div class="links">
+            <a href=""><b>CV</b></a>
+            <a href="">CL</a>
+          </div>
         </div>
-        <div class="hero">
-            <!-- <div> -->
-                <div class="hero-img">
-                    <img src="./ch.jpg" alt="">
-                </div>
-                <div class="hero-desc">
-                    <p>
-                        Building Digital product, brand and experience
-                    </p>
-                </div>
-                <button>Something</button>
-            <!-- </div> -->
+        <nav class="nav-bar">
+          <div>
+            <a href="">linkedIn</a>
+            <a href="">Instagram</a>
+            <a href="">Github</a>
+          </div>
+        </nav>
+      </div>
+
+      <!-- Hero section -->
+      <div class="hero">
+        <div class="hero-img">
+          <img src="./images/ch.jpg" alt="" />
         </div>
+        <div class="hero-desc">
+          <p>Building Digital product, brand and experience</p>
+        </div>
+        <button>
+          Projects
+          <i class="fa-solid fa-up-right-from-square"></i>
+        </button>
+      </div>
+
+      <!-- Brands section -->
+      <div class="brand-section">
+        <div class="brands">
+          <div class="items" id="item1"></div>
+          <div class="items" id="item2"></div>
+          <div class="items" id="item3"></div>
+          <!-- <div class="items" id="item4"></div> -->
+          <div class="items" id="item5"></div>
+          <div class="items" id="item6"></div>
+        </div>
+      </div>
+
+      <!-- Members section  -->
+      <div class="members-section">
+        <div class="members-head">
+          <p>
+            Collaborate with brands and agencies <br />
+            to create impactufl results.
+          </p>
+        </div>
+        <button class="members-services">Service</button>
+        <div class="each-member">
+          <!-- Member 1 -->
+          <div class="member" id="member1">
+            <span><img src="./images/ch.jpg" id="member1-prfl" alt="" /></span>
+            <h3>Member 1</h3>
+            <p>
+              In this section will go the expertise of a particular individual
+              in the group
+            </p>
+          </div>
+
+          <!-- Member 2 -->
+          <div class="member" id="member2">
+            <span><img src="./images/ch.jpg" id="member1-prfl" alt="" /></span>
+            <h3>Member 2</h3>
+            <p>
+              In this section will go the expertise of a particular individual
+              in the group
+            </p>
+          </div>
+
+          <!-- Member 3 -->
+          <div class="member" id="member3">
+            <span><img src="./images/ch.jpg" id="member1-prfl" alt="" /></span>
+            <h3>Member 3</h3>
+            <p>
+              In this section will go the expertise of a particular individual
+              in the group
+            </p>
+          </div>
+
+          <!-- Member 4 -->
+          <div class="member" id="member4">
+            <span><img src="./images/ch.jpg" id="member1-prfl" alt="" /></span>
+            <h3>Member 4</h3>
+            <p>
+              In this section will go the expertise of a particular individual
+              in the group
+            </p>
+          </div>
+
+          <!-- Member 5 -->
+          <div class="member" id="member5">
+            <span><img src="./images/ch.jpg" id="member1-prfl" alt="" /></span>
+            <h3>Member 5</h3>
+            <p>
+              In this section will go the expertise of a particular individual
+              in the group
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Next project idea -->
+      <div class="nextProject">
+        <div class="nextProject-head">
+          <img src="./images/hands.png" alt="" />
+          <h1>
+            Tell us about your next <br />
+            project
+          </h1>
+          <button id="black-btn">
+            <i class="fa-regular fa-envelope"></i>
+            Email Us
+          </button>
+          <button id="white-btn">WhatsApp</button>
+        </div>
+      </div>
+      <div class="foot">
+        <div class="copyright">© 2024 All rights reserved.</div>
+        <div class="social-links">
+          <a href="">linkedIn /</a>
+          <a href="">Instagram /</a>
+          <a href="">Github</a>
+        </div>
+      </div>
     </div>
   </body>
 </html>

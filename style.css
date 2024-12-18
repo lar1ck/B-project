@@ -5,7 +5,6 @@
 }
 
 .nav-bar{
-    /* display: flex; */
     justify-content: space-around;
     width: 250px;
     margin-top: 8px;
@@ -52,18 +51,25 @@
     border-radius: 60px;
     background-color: white;
     font-size: small;
+    margin-inline: 3px;
+}
+
+.oth .links a:hover{
+    background-color: rgb(235, 234, 233);
+    border: 1px solid black;
+    transition-duration: 0.3s;
 }
 
 .oth .logo {
     font-weight: 600;
-    /* font-size: small; */
 }
 
 .hero{
     padding-top: 50px;
-    /* display: flex; */
     justify-content: center;
     text-align: center;
+    position: relative;
+    z-index: 20;
 }
 
 .hero .hero-img img{
@@ -74,7 +80,6 @@
 .hero .hero-desc{
     width: 500px;
     justify-self: center;
-    /* background-color: blue; */
     font-size: 60px;
     font-weight: 300px;
 }
@@ -82,7 +87,7 @@
 .hero button{
     border: 0;
     padding-inline: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 12px;
     padding-top: 10px;
     font-size: large;
     background-color: black;
@@ -91,7 +96,217 @@
     margin-top: 20px;
 }
 
+.hero button i{
+    margin-inline: 5px;
+}
+
 *::selection{
     background-color: rgb(88, 88, 88);
     color: azure;
+}
+
+.brand-section{
+    position: relative;
+    background-color: rgb(246, 246, 246);
+    height: 220px;
+    border-bottom-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+    z-index: 10;
+    margin-top: -80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.brand-section .brands{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+.brand-section .brands .items{
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    align-items: center;
+}
+
+.brand-section .brands  #item1{
+    background-image: url(./images/hd-black-coca-cola-logo-png-31625589602pozxlvlinc.png);
+    background-size: 100%;
+    background-position: center;
+}
+
+.brand-section .brands  #item2{
+    background-image: url(./images/Porsche_Logo_PNG_Transparent___SVG_Vector_-_Freebie_Supply-removebg-preview.png);
+    background-size: 100%;
+    background-position: center;
+}
+
+.brand-section .brands  #item3{
+    background-image: url(./images/adobe.png);
+    background-size: 45%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.brand-section .brands  #item4{
+    background-image: url(./images/maybach.png);
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.brand-section .brands  #item5{
+    background-image: url(./images/blackRock.png);
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.brand-section .brands  #item6{
+    background-image: url(./images/nike.png);
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.members-section{
+    position: relative;
+    z-index: 1;
+    background-color: rgb(235, 234, 233);
+    height: 760px;
+    margin-top: -100px;
+}
+
+.members-section .members-head{
+    display: flex;
+    padding-top: 170px;
+    justify-content: center;
+    text-align: center;
+    font-size: 35px;
+    font-family: Arial;
+    padding-bottom: 70px;
+    border-bottom: 1px solid rgb(204, 204, 204);
+    width: 900px;
+    justify-self: center;
+    position: relative;
+}
+
+.members-section .members-services{
+    border: none;
+    background-color: white;
+    font-weight: bolder;
+    transform: rotate(-9deg);
+    padding-inline: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 60px;
+    margin-left: 45%;
+    position: absolute;
+    margin-top: -20px;
+}
+
+.members-section .each-member{
+    margin-top: 70px;
+    padding-inline: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.members-section .each-member .member{
+    max-width: 200px;
+}
+
+.members-section .each-member .member h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.members-section .each-member #member1-prfl{
+    width: 60px;
+    border-radius: 100%;
+}
+
+.nextProject{
+    height: 500px;
+    position: relative;
+    z-index: 3;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+    background-color: rgb(246, 246, 246);
+    margin-top: -90px;
+    padding-top: 80px;
+    padding-inline: 40px;
+}
+
+.nextProject .nextProject-head{
+    width: 100%;
+    justify-self: center;
+    text-align: center;
+    border-bottom: 1px solid rgb(187, 184, 184);
+    height: 500px;
+}
+
+.nextProject .nextProject-head img{
+    width: 150px;
+    border-radius: 100%;
+}
+
+.nextProject .nextProject-head h1{
+    font-size: 50px;
+    color: rgb(75, 75, 75);
+}
+
+.nextProject .nextProject-head button{
+    margin-top: 40px;
+    padding-inline: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: large;
+    border-radius: 60px;
+    border: none;
+    margin-inline: 3px;
+}
+
+.nextProject .nextProject-head #black-btn{
+    border: 3px solid rgb(197, 197, 197);
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+}
+
+.nextProject .nextProject-head #black-btn i{
+    color: rgb(197, 197, 197);
+    margin-inline: 5px;
+}
+
+.nextProject .nextProject-head #white-btn{
+    border: 3px solid rgb(197, 197, 197);
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+}
+
+.foot{
+    padding: 20px;
+    background-color: rgb(246, 246, 246);
+    padding-inline: 40px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.foot .copyright{
+    color: rgb(109, 109, 109);
+}
+
+.foot .social-links a{
+    text-decoration: none;
+    color: rgb(109, 109, 109);
+}
+
+html{
+    scroll-behavior: smooth;
 }
