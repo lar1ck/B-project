@@ -28,7 +28,7 @@
 }
 
 .hero{
-    height: 450px;
+    height: 487px;
     background-color: rgb(235, 234, 233);
     border-bottom-right-radius: 80px;
     border-bottom-left-radius: 80px;
@@ -77,7 +77,7 @@
 }
 
 .hero .hero-img img{
-    width: 100px;
+    width: 170px;
     border-radius: 100%;
 }
 
