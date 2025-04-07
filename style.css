@@ -252,6 +252,7 @@
 .members-section .each-member #member1-prfl{
     width: 60px;
     border-radius: 100%;
+    /* background-image: url('/images/js-image.png'); */
 }
 
 .nextProject{
@@ -305,6 +306,10 @@
 .nextProject .nextProject-head #black-btn i{
     color: rgb(197, 197, 197);
     margin-inline: 5px;
+}
+
+.nextProject .nextProject-head #black-btn:hover{
+    cursor: pointer;
 }
 
 .nextProject .nextProject-head #white-btn{
