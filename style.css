@@ -100,6 +100,10 @@
     margin-inline: 5px;
 }
 
+.hero button:hover{
+    cursor: pointer;
+}
+
 *::selection{
     background-color: rgb(88, 88, 88);
     color: azure;
@@ -108,7 +112,7 @@
 .brand-section{
     position: relative;
     background-color: rgb(246, 246, 246);
-    height: 220px;
+    height: 320px;
     border-bottom-right-radius: 80px;
     border-bottom-left-radius: 80px;
     z-index: 10;
@@ -119,9 +123,25 @@
 }
 
 .brand-section .brands{
+    max-width: 1200px;
     display: flex;
     align-items: center;
     gap: 70px;
+}
+
+.brand-section .brands .bio-header{
+    /* width: 500px; */
+    padding: 10px 15px ;
+    background-color: rgb(235, 234, 233);
+    border-radius: 10px;
+    font-weight: 800;
+}
+
+.brand-section .brands .bio-content{
+    width: 400px;
+    /* background-color: blue; */
+    font-size: 17px;
+    
 }
 
 .brand-section .brands .items{
