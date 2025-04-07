@@ -379,7 +379,11 @@ html{
     }
   
     .hero .hero-img img {
-      width: 80px;
+      width: 250px;
+    }
+
+    .brand-section {
+        height: 370px;
     }
   
     .brand-section .brands {
@@ -394,8 +398,9 @@ html{
     }
   
     .members-section {
+        padding-top: 100px;
       height: auto;
-      padding-bottom: 50px;
+      padding-bottom: 100px;
     }
   
     .members-section .members-head {
