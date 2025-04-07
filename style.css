@@ -33,6 +33,10 @@
     border-bottom-right-radius: 80px;
     border-bottom-left-radius: 80px;
 }
+.hero-greet{
+    font-size: 25px;
+    color: rgb(87, 87, 87);
+}
 
 .oth{
     display: flex;
