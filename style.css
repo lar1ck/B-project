@@ -339,3 +339,124 @@
 html{
     scroll-behavior: smooth;
 }
+
+/* ----------- RESPONSIVE DESIGN ----------- */
+
+/* Small devices (phones, < 600px) */
+@media only screen and (max-width: 600px) {
+    .p-navBar {
+      flex-direction: column;
+      padding: 15px;
+      gap: 10px;
+    }
+  
+    .oth {
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+  
+    .nav-bar {
+      width: 100%;
+      padding: 0;
+      text-align: center;
+    }
+  
+    .nav-bar a {
+      display: block;
+      margin: 5px 0;
+    }
+  
+    .hero {
+      padding: 30px 10px;
+      height: auto;
+    }
+  
+    .hero .hero-desc {
+      width: 100%;
+      font-size: 32px;
+      padding: 10px;
+    }
+  
+    .hero .hero-img img {
+      width: 80px;
+    }
+  
+    .brand-section .brands {
+      flex-direction: column;
+      padding: 20px;
+      gap: 20px;
+    }
+  
+    .brand-section .brands .bio-content {
+      width: 100%;
+      font-size: 16px;
+    }
+  
+    .members-section {
+      height: auto;
+      padding-bottom: 50px;
+    }
+  
+    .members-section .members-head {
+      width: 90%;
+      font-size: 24px;
+      padding: 50px 10px;
+    }
+  
+    .members-section .each-member {
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+    }
+  
+    .nextProject {
+      padding: 20px;
+      height: auto;
+    }
+  
+    .nextProject .nextProject-head h1 {
+      font-size: 32px;
+    }
+  
+    .foot {
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      text-align: center;
+    }
+  }
+  
+  /* Tablets (600px - 1024px) */
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .nav-bar {
+      width: auto;
+    }
+  
+    .hero .hero-desc {
+      width: 90%;
+      font-size: 48px;
+    }
+  
+    .members-section .members-head {
+      width: 100%;
+      font-size: 28px;
+      padding: 100px 20px 50px 20px;
+    }
+  
+    .members-section .each-member {
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+  
+    .brand-section .brands {
+      gap: 30px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .brand-section .brands .bio-content {
+      width: 90%;
+    }
+  }
+  
