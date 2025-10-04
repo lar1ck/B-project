@@ -204,7 +204,13 @@
 
       <!-- Footer section -->
       <div class="foot">
-        <div class="copyright">© 2024 All rights reserved.</div>
+        <div class="copyright">
+          © <span id="year"></span> All rights reserved.
+        </div>
+        <script>
+          document.getElementById("year").textContent =
+            new Date().getFullYear();
+        </script>
         <div class="social-links">
           <a
             href="https://www.linkedin.com/in/shyaka-ngango-858307324/"
