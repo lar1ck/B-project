@@ -470,3 +470,19 @@ html{
     }
   }
   
+@media only screen and (max-width:430px) {
+    .brand-section{
+        /* font-size: 10px; */
+        height: 420px;
+        text-align: center;
+    }
+    .members-section .members-services{
+        margin-left: 35%;
+    }
+    .nextProject{
+        height: 400px;
+    }
+    /* .email-btn{
+        margin-top: 30px;
+    } */
+}
